@@ -1,0 +1,13 @@
+"id","referrer_id","campaign_id","created_at","first_name","last_name","phone","email","notes"
+"8428bbf0-133c-4731-bbd3-126c46703006","24ee2217-b8b0-4dc9-b959-91a3a729f7d8","77e5c535-7a10-4071-ae68-5ad6c6aff180","2023-12-21 16:16:18.000000","Primo","Invitato","+393491234567","primo.invitato@example.com",
+"7b7e8691-cd5e-48d1-abfb-a5bfcc920d57","24ee2217-b8b0-4dc9-b959-91a3a729f7d8","77e5c535-7a10-4071-ae68-5ad6c6aff180","2023-12-21 16:17:23.000000","Secondo","Referral","+393492345678","second.referral@example.com","Non risponde mai"
+"a89e209f-a5c9-4b47-b68e-bf493fef89e7","24ee2217-b8b0-4dc9-b959-91a3a729f7d8","77e5c535-7a10-4071-ae68-5ad6c6aff180","2023-12-21 16:17:25.000000","Un","Altro Referral","+393493456789","un.altro@example.com","Note note note notee"
+"79401bf6-50f9-4cdf-91f7-34a82a1bb781","24ee2217-b8b0-4dc9-b959-91a3a729f7d8","77e5c535-7a10-4071-ae68-5ad6c6aff180","2023-12-21 16:17:27.000000","Nome lungo","Cognome breve","+393494567891","email.lunga.molto@example.com","Nota breve"
+"b7fae93a-fee6-498b-b1cf-9905f5a8f5c6","24ee2217-b8b0-4dc9-b959-91a3a729f7d8","77e5c535-7a10-4071-ae68-5ad6c6aff180","2023-12-21 16:17:29.000000","Nome davvero molto","E tanto lungo","+393499876543","e@example.com","Nota su più righe
+una riga
+due righe
+tre righe
+
+
+e spazi"
+"896f499f-e0f4-468b-9717-9e451ac5261c","24ee2217-b8b0-4dc9-b959-91a3a729f7d8","77e5c535-7a10-4071-ae68-5ad6c6aff180","2023-12-21 16:17:30.000000","No","Invece lungo, molto lungo","+393491594826","nome.cognome.soprannome.patronimico@example.com","Parola"

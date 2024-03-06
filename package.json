@@ -1,0 +1,20 @@
+{
+  "name": "ui-mockup",
+  "version": "1.0.0",
+  "description": "UI mockup",
+  "scripts": {
+    "dev-server": "encore dev-server",
+    "dev": "encore dev",
+    "watch": "encore dev --watch",
+    "build": "encore production --progress"
+  },
+  "private": true,
+  "devDependencies": {
+    "@symfony/webpack-encore": "^4.5.0",
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "vue": "^2.7.15",
+    "vue-loader": "^15.11.1",
+    "vue-template-compiler": "^2.7.15"
+  }
+}

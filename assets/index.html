@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Tutor - Table</title>
+</head>
+<body class="card-body" id="page-top">
+
+<!-- inizio navbar -->
+<header>
+    <div class="container-fluid">
+        <div class="navb-logo">
+            <a href="#">Logo</a>
+        </div>
+        <div class="navb-items">
+            <div class="item">
+                <a href="/">Home</a>
+            </div>
+            <div class="item">
+                <a href="/">Users</a>
+            </div>
+            <div class="item">
+                <a href="/">Dashboard</a>
+            </div>
+            <div class="item">
+                <a href="/">Listeners</a>
+            </div>
+            <div class="item-button">
+                <div class="item">
+                    <a href="/">Login</a>
+                </div>
+            </div>
+            <!-- Button trigger modal -->
+            <div class="mobile-toggler d-lg-none">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#navbModal">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="navbModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+                            <a>Logo</a>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                <i class="fa-solid fa-xmark"></i>
+                            </button>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="modal-line">
+                                <i class="fa-solid fa-house"></i><a href="/">Home</a>
+                            </div>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="modal-line">
+                                <i class="fa-solid fa-users"></i><a href="/">Users</a>
+                            </div>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="modal-line">
+                                <i class="fa-solid fa-table-columns"></i><a href="/">Dashboard</a>
+                            </div>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="modal-line">
+                                <i class="fa-solid fa-clipboard"></i><a href="/">Listeners</a>
+                            </div>
+                        </div>
+
+                        <div class="modal-body">
+                            <div class="modal-line">
+                                <i class="fa-solid fa-right-to-bracket"></i><a href="#" class="navb-button">Logout</a>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <a target="_blank" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-youtube"></i></a>
+                            <a target="_blank" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- fine navbar -->
+
+<!-- lascio spazio -->
+<div style="height: 80px;"></div>
+
+<!-- Dashboard Tutor -->
+<h3 class="text-dark mb-4">Dashboard Tutor</h3>
+
+<div class="card-header py-3">
+    <p class="m-0 fw-bold" style="color: #6666ff;">Referrer Info</p>
+</div>
+
+<!-- inizio tabella -->
+<div class="card-body">
+    <div id="dataTable" class="table-responsive table mt-2" role="grid" aria-describedby="dataTable_info">
+        <table id="dataTable" class="table my-0">
+            <thead>
+            <tr>
+                <th>Referrer</th>
+                <th>E-mail</th>
+                <th>Telefono</th>
+                <th style="text-align: center;">N. Referral</th>
+                <th>Campagna</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>Amelia Lori</td>
+                <td>amelia.lori@example.com</td>
+                <td>+39 3491234567</td>
+                <td style="text-align: center;">2</td>
+                <td>Campagna-1</td>
+            </tr>
+            <tr>
+                <td>Elisabetta Pugliesi</td>
+                <td>elisabetta.pugliesi@example.com</td>
+                <td>+39 3492345678</td>
+                <td style="text-align: center;">5</td>
+                <td>Campagna-2</td>
+            </tr>
+            <tr>
+                <td>Marco Ricci</td>
+                <td>ricci3.marco@example.com</td>
+                <td>+39 3493456789</td>
+                <td style="text-align: center;">15</td>
+                <td>Campagna-3</td>
+            </tr>
+            <tr>
+                <td>Annunziata Greco</td>
+                <td>greco78_annunziata@example.com</td>
+                <td>+39 3494567891</td>
+                <td style="text-align: center;">3</td>
+                <td>Campagna-4</td>
+            </tr>
+            <tr>
+                <td>Gianfranco Piazza</td>
+                <td>piazza.gianfranco@example.com</td>
+                <td>+393499876543</td>
+                <td style="text-align: center;">14</td>
+                <td>Campagna-5</td>
+            </tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            </tbody>
+            <tr></tr>
+        </table>
+    </div>
+</div>
+<!-- fine tabella -->
+
+<!-- spazio tra tabella e footer -->
+<div style="height: 120px;"></div>
+
+<!-- inizio footer -->
+<footer class="bg-white sticky-footer">
+    <div class="container my-auto">
+        <div class="text-center my-auto copyright">
+            <span>Copyright © Metodo Merenda 2024</span>
+        </div>
+    </div>
+</footer>
+
+<!-- script per fontawesome -->
+<script src="https://kit.fontawesome.com/7b8a293640.js" crossorigin="anonymous"></script>
+<!-- Bootstrap JS bundle (including Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- JavaScript -->
+<script src="./app.js"></script>
+</body>
+</html>
